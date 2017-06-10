@@ -13,6 +13,28 @@
 		467B15761EEB079400F647A9 /* Abkao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 467B15741EEB079400F647A9 /* Abkao.xcdatamodeld */; };
 		467B15781EEB079400F647A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467B15771EEB079400F647A9 /* Assets.xcassets */; };
 		467B157B1EEB079400F647A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467B15791EEB079400F647A9 /* LaunchScreen.storyboard */; };
+		467B15D61EEB302D00F647A9 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B158F1EEB302D00F647A9 /* AuthManager.swift */; };
+		467B15D81EEB302D00F647A9 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B15911EEB302D00F647A9 /* ModelManager.swift */; };
+		467B15F71EEB302D00F647A9 /* BaseWebAccessLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B15CC1EEB302D00F647A9 /* BaseWebAccessLayer.swift */; };
+		467B16021EEB305300F647A9 /* Date+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B15FA1EEB305300F647A9 /* Date+Customization.swift */; };
+		467B16031EEB305300F647A9 /* UILabel+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B15FB1EEB305300F647A9 /* UILabel+Customization.swift */; };
+		467B16041EEB305300F647A9 /* UIView+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B15FC1EEB305300F647A9 /* UIView+Customization.swift */; };
+		467B16051EEB305300F647A9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B15FD1EEB305300F647A9 /* Config.swift */; };
+		467B16061EEB305300F647A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B15FE1EEB305300F647A9 /* Constants.swift */; };
+		467B16071EEB305300F647A9 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B16011EEB305300F647A9 /* UIColor+Hex.swift */; };
+		467B160B1EEC71E600F647A9 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B160A1EEC71E600F647A9 /* SettingsManager.swift */; };
+		467B160D1EEC727200F647A9 /* ProductDescManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B160C1EEC727200F647A9 /* ProductDescManager.swift */; };
+		467B160F1EEC728200F647A9 /* ProductPriceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B160E1EEC728200F647A9 /* ProductPriceManager.swift */; };
+		467B16111EEC72A200F647A9 /* BarcodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B16101EEC72A200F647A9 /* BarcodeManager.swift */; };
+		467B16131EEC72B700F647A9 /* ScheduleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B16121EEC72B700F647A9 /* ScheduleManager.swift */; };
+		467B16151EEC731100F647A9 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B16141EEC731100F647A9 /* ProductManager.swift */; };
+		467B16171EEC745200F647A9 /* ProductPriceI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B16161EEC745200F647A9 /* ProductPriceI.swift */; };
+		467B16191EEC74E700F647A9 /* ProductDescI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B16181EEC74E700F647A9 /* ProductDescI.swift */; };
+		467B161B1EEC74F600F647A9 /* UserI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B161A1EEC74F600F647A9 /* UserI.swift */; };
+		467B161D1EEC750600F647A9 /* BarcodeI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B161C1EEC750600F647A9 /* BarcodeI.swift */; };
+		467B161F1EEC751A00F647A9 /* SchedulerI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B161E1EEC751A00F647A9 /* SchedulerI.swift */; };
+		467B16211EEC78C500F647A9 /* ProductI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B16201EEC78C500F647A9 /* ProductI.swift */; };
+		EC2B7D71E300B209FC1034B1 /* Pods_Abkao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68072A0A00588DC4E1926DC4 /* Pods_Abkao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +46,31 @@
 		467B15771EEB079400F647A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467B157A1EEB079400F647A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		467B157C1EEB079400F647A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467B158F1EEB302D00F647A9 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		467B15911EEB302D00F647A9 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		467B15CC1EEB302D00F647A9 /* BaseWebAccessLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebAccessLayer.swift; sourceTree = "<group>"; };
+		467B15FA1EEB305300F647A9 /* Date+Customization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Customization.swift"; sourceTree = "<group>"; };
+		467B15FB1EEB305300F647A9 /* UILabel+Customization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Customization.swift"; sourceTree = "<group>"; };
+		467B15FC1EEB305300F647A9 /* UIView+Customization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Customization.swift"; sourceTree = "<group>"; };
+		467B15FD1EEB305300F647A9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		467B15FE1EEB305300F647A9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		467B15FF1EEB305300F647A9 /* Abkao-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Abkao-Bridging-Header.h"; sourceTree = "<group>"; };
+		467B16011EEB305300F647A9 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		467B160A1EEC71E600F647A9 /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		467B160C1EEC727200F647A9 /* ProductDescManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDescManager.swift; sourceTree = "<group>"; };
+		467B160E1EEC728200F647A9 /* ProductPriceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPriceManager.swift; sourceTree = "<group>"; };
+		467B16101EEC72A200F647A9 /* BarcodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeManager.swift; sourceTree = "<group>"; };
+		467B16121EEC72B700F647A9 /* ScheduleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleManager.swift; sourceTree = "<group>"; };
+		467B16141EEC731100F647A9 /* ProductManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		467B16161EEC745200F647A9 /* ProductPriceI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPriceI.swift; sourceTree = "<group>"; };
+		467B16181EEC74E700F647A9 /* ProductDescI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDescI.swift; sourceTree = "<group>"; };
+		467B161A1EEC74F600F647A9 /* UserI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserI.swift; sourceTree = "<group>"; };
+		467B161C1EEC750600F647A9 /* BarcodeI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeI.swift; sourceTree = "<group>"; };
+		467B161E1EEC751A00F647A9 /* SchedulerI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerI.swift; sourceTree = "<group>"; };
+		467B16201EEC78C500F647A9 /* ProductI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductI.swift; sourceTree = "<group>"; };
+		49655107A6060CC636A4BA00 /* Pods-Abkao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abkao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abkao/Pods-Abkao.release.xcconfig"; sourceTree = "<group>"; };
+		68072A0A00588DC4E1926DC4 /* Pods_Abkao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abkao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973613BB692BFA8970D7C932 /* Pods-Abkao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abkao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abkao/Pods-Abkao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +78,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2B7D71E300B209FC1034B1 /* Pods_Abkao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B22C746A514E627644C0F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				973613BB692BFA8970D7C932 /* Pods-Abkao.debug.xcconfig */,
+				49655107A6060CC636A4BA00 /* Pods-Abkao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		467B15611EEB079400F647A9 = {
 			isa = PBXGroup;
 			children = (
 				467B156C1EEB079400F647A9 /* Abkao */,
 				467B156B1EEB079400F647A9 /* Products */,
+				05B22C746A514E627644C0F0 /* Pods */,
+				97D57348E55A8BF2168C5C08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +115,11 @@
 		467B156C1EEB079400F647A9 /* Abkao */ = {
 			isa = PBXGroup;
 			children = (
+				467B15F81EEB305300F647A9 /* Resources */,
+				467B15891EEB302D00F647A9 /* Interfaces */,
+				467B158D1EEB302D00F647A9 /* Model */,
+				467B15961EEB302D00F647A9 /* ViewControllers */,
+				467B15CB1EEB302D00F647A9 /* WebAccessLayer */,
 				467B156D1EEB079400F647A9 /* AppDelegate.swift */,
 				467B156F1EEB079400F647A9 /* ViewController.swift */,
 				467B15711EEB079400F647A9 /* Main.storyboard */,
@@ -67,6 +131,87 @@
 			path = Abkao;
 			sourceTree = "<group>";
 		};
+		467B15891EEB302D00F647A9 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				467B16201EEC78C500F647A9 /* ProductI.swift */,
+				467B16181EEC74E700F647A9 /* ProductDescI.swift */,
+				467B16161EEC745200F647A9 /* ProductPriceI.swift */,
+				467B161A1EEC74F600F647A9 /* UserI.swift */,
+				467B161C1EEC750600F647A9 /* BarcodeI.swift */,
+				467B161E1EEC751A00F647A9 /* SchedulerI.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		467B158D1EEB302D00F647A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				467B158F1EEB302D00F647A9 /* AuthManager.swift */,
+				467B16101EEC72A200F647A9 /* BarcodeManager.swift */,
+				467B160A1EEC71E600F647A9 /* SettingsManager.swift */,
+				467B15911EEB302D00F647A9 /* ModelManager.swift */,
+				467B160C1EEC727200F647A9 /* ProductDescManager.swift */,
+				467B160E1EEC728200F647A9 /* ProductPriceManager.swift */,
+				467B16121EEC72B700F647A9 /* ScheduleManager.swift */,
+				467B16141EEC731100F647A9 /* ProductManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		467B15961EEB302D00F647A9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		467B15CB1EEB302D00F647A9 /* WebAccessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				467B15CC1EEB302D00F647A9 /* BaseWebAccessLayer.swift */,
+			);
+			path = WebAccessLayer;
+			sourceTree = "<group>";
+		};
+		467B15F81EEB305300F647A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				467B15F91EEB305300F647A9 /* Categories */,
+				467B15FD1EEB305300F647A9 /* Config.swift */,
+				467B15FE1EEB305300F647A9 /* Constants.swift */,
+				467B15FF1EEB305300F647A9 /* Abkao-Bridging-Header.h */,
+				467B16001EEB305300F647A9 /* Utilities */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		467B15F91EEB305300F647A9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				467B15FA1EEB305300F647A9 /* Date+Customization.swift */,
+				467B15FB1EEB305300F647A9 /* UILabel+Customization.swift */,
+				467B15FC1EEB305300F647A9 /* UIView+Customization.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		467B16001EEB305300F647A9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				467B16011EEB305300F647A9 /* UIColor+Hex.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		97D57348E55A8BF2168C5C08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68072A0A00588DC4E1926DC4 /* Pods_Abkao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 467B157F1EEB079400F647A9 /* Build configuration list for PBXNativeTarget "Abkao" */;
 			buildPhases = (
+				479F38AFBCBFEA519BB44802 /* [CP] Check Pods Manifest.lock */,
 				467B15661EEB079400F647A9 /* Sources */,
 				467B15671EEB079400F647A9 /* Frameworks */,
 				467B15681EEB079400F647A9 /* Resources */,
+				C06E27E3F65DD2DF0D208363 /* [CP] Embed Pods Frameworks */,
+				E3D0AB35B4497428BDFCBBA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +282,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		479F38AFBCBFEA519BB44802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C06E27E3F65DD2DF0D208363 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abkao/Pods-Abkao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D0AB35B4497428BDFCBBA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abkao/Pods-Abkao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		467B15661EEB079400F647A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467B15D81EEB302D00F647A9 /* ModelManager.swift in Sources */,
 				467B15701EEB079400F647A9 /* ViewController.swift in Sources */,
+				467B161B1EEC74F600F647A9 /* UserI.swift in Sources */,
+				467B16211EEC78C500F647A9 /* ProductI.swift in Sources */,
+				467B16171EEC745200F647A9 /* ProductPriceI.swift in Sources */,
+				467B16071EEB305300F647A9 /* UIColor+Hex.swift in Sources */,
+				467B16151EEC731100F647A9 /* ProductManager.swift in Sources */,
+				467B15F71EEB302D00F647A9 /* BaseWebAccessLayer.swift in Sources */,
+				467B15D61EEB302D00F647A9 /* AuthManager.swift in Sources */,
+				467B16111EEC72A200F647A9 /* BarcodeManager.swift in Sources */,
 				467B15761EEB079400F647A9 /* Abkao.xcdatamodeld in Sources */,
+				467B16031EEB305300F647A9 /* UILabel+Customization.swift in Sources */,
+				467B161D1EEC750600F647A9 /* BarcodeI.swift in Sources */,
+				467B16061EEB305300F647A9 /* Constants.swift in Sources */,
+				467B16041EEB305300F647A9 /* UIView+Customization.swift in Sources */,
+				467B16051EEB305300F647A9 /* Config.swift in Sources */,
+				467B16021EEB305300F647A9 /* Date+Customization.swift in Sources */,
 				467B156E1EEB079400F647A9 /* AppDelegate.swift in Sources */,
+				467B160B1EEC71E600F647A9 /* SettingsManager.swift in Sources */,
+				467B160D1EEC727200F647A9 /* ProductDescManager.swift in Sources */,
+				467B16191EEC74E700F647A9 /* ProductDescI.swift in Sources */,
+				467B160F1EEC728200F647A9 /* ProductPriceManager.swift in Sources */,
+				467B16131EEC72B700F647A9 /* ScheduleManager.swift in Sources */,
+				467B161F1EEC751A00F647A9 /* SchedulerI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +479,7 @@
 		};
 		467B15801EEB079400F647A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973613BB692BFA8970D7C932 /* Pods-Abkao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Abkao/Info.plist;
@@ -274,6 +492,7 @@
 		};
 		467B15811EEB079400F647A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49655107A6060CC636A4BA00 /* Pods-Abkao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Abkao/Info.plist;
@@ -303,6 +522,7 @@
 				467B15811EEB079400F647A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
