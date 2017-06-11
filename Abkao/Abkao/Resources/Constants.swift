@@ -17,7 +17,7 @@ public struct Constants {
     
     
     
-    static let LOCAL_HOST = "http://192.168.1.163:"
+    static let baseUrl = "http://2.abkao-webservices.appspot.com/"
 
     
     enum AvenirNextCondensed : String {

@@ -10,10 +10,10 @@ import UIKit
 import Foundation
 import Alamofire
 
-import ReachabilitySwift
+//import ReachabilitySwift
 
 class BaseWebAccessLayer: NSObject {
-    
+   /*
    static let reachability = Reachability()
     
     override init() {
@@ -23,6 +23,7 @@ class BaseWebAccessLayer: NSObject {
          
         }
     }
+    
     
     class func isInternetReachable(reachabilityHandler : @escaping (Bool,String) -> Void) -> Void
     {
@@ -52,17 +53,18 @@ class BaseWebAccessLayer: NSObject {
             print("Unable to start notifier")
         }
     }
+ */
     
-    class func requestURLWithDictionaryResponse(requestType : HTTPMethod , strURL: String,headers : Bool,params : NSDictionary?, success:@escaping (NSDictionary , Int) -> Void, failure:@escaping (Error , Int) -> Void) {
+    class func requestURLWithDictionaryResponse(requestType : HTTPMethod , strURL: String,headers : Bool,params : NSDictionary?, result:@escaping (NSDictionary , Int) -> Void) {
         
         
-            if (reachability?.isReachable)!
-            {
+//            if (reachability?.isReachable)!
+//            {
                 // proceed
                 
                 var finalStrUrl = String()
                 
-                 finalStrUrl = Constants.LOCAL_HOST + Constants.PORT_NUMBER + Constants.API_VERSION + strURL
+                 finalStrUrl = Constants.baseUrl + strURL
                 
                 print("API Url : \(finalStrUrl)")
                 
@@ -82,24 +84,18 @@ class BaseWebAccessLayer: NSObject {
                         let statusCode : Int = (responseObject.response?.statusCode)!
                         let resJson = responseObject.result.value as! NSDictionary
                         
-                        success(resJson , statusCode)
+                        result(resJson , statusCode)
                         
-                    }
-                    if responseObject.result.isFailure {
-                        let statusCode : Int = (responseObject.response?.statusCode)!
-                        
-                        let error : Error = responseObject.result.error!
-                        failure(error , statusCode)
                     }
                 }
 
-            }
-            else
-            {
+//            }
+//            else
+//            {
                 // show message
                 
                 // unreachable
-            }
+//            }
         
     }
     
