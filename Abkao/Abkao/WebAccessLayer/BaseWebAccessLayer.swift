@@ -10,10 +10,10 @@ import UIKit
 import Foundation
 import Alamofire
 
-//import ReachabilitySwift
+import ReachabilitySwift
 
 class BaseWebAccessLayer: NSObject {
-   /*
+   
    static let reachability = Reachability()
     
     override init() {
@@ -53,13 +53,13 @@ class BaseWebAccessLayer: NSObject {
             print("Unable to start notifier")
         }
     }
- */
+ 
     
     class func requestURLWithDictionaryResponse(requestType : HTTPMethod , strURL: String,headers : Bool,params : NSDictionary?, result:@escaping (NSDictionary , Int) -> Void) {
         
         
-//            if (reachability?.isReachable)!
-//            {
+            if (reachability?.isReachable)!
+            {
                 // proceed
                 
                 var finalStrUrl = String()
@@ -89,13 +89,13 @@ class BaseWebAccessLayer: NSObject {
                     }
                 }
 
-//            }
-//            else
-//            {
+            }
+            else
+            {
                 // show message
                 
                 // unreachable
-//            }
+            }
         
     }
     
