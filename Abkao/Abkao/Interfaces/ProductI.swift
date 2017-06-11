@@ -12,8 +12,9 @@ class ProductI: NSObject {
 
     //setter and getters
     public var productVedUrl: String?
-    public var arrProductDesc = [ProductDescI]?
-    public var arrayProductPrice = [ProductPriceI]?
+    public var arrProductDesc : [ProductDescI]?
+    public var arrProductPrice : [ProductPriceI]?
+
 
     
     
@@ -21,7 +22,7 @@ class ProductI: NSObject {
     {
         self.productVedUrl = ""
         self.arrProductDesc = [ProductDescI]()
-        self.arrayProductPrice = [ProductPriceI]()
+        self.arrProductPrice = [ProductPriceI]()
 
     }
     
@@ -29,7 +30,7 @@ class ProductI: NSObject {
     {
         self.productVedUrl = ""
         self.arrProductDesc?.removeAll()
-        self.arrayProductPrice?.removeALl()
+        self.arrProductPrice?.removeAll()
 
     }
     
@@ -38,38 +39,38 @@ class ProductI: NSObject {
         self.productVedUrl =  (productObj["canceled_by"] as? String ?? "")
   
         
-        if let tempObj = productObj["trip_rides"] as? NSArray
-        {
-            for leg in tempObj
-            {
-                let tripLeg  = leg  as! [String : AnyObject]
-                
-                let tripRideCustomObj = TripRideI()
-                
-                tripRideCustomObj.setTripRideData(tripRideObj: tripLeg)
-                
-                self.arrProductDesc?.append(tripRideCustomObj)
-                
-            }
+//        if let tempObj = productObj["trip_rides"] as? NSArray
+//        {
+//            for leg in tempObj
+//            {
+//                let tripLeg  = leg  as! [String : AnyObject]
+//                
+//                let tripRideCustomObj = TripRideI()
+//                
+//                tripRideCustomObj.setTripRideData(tripRideObj: tripLeg)
+//                
+//                self.arrProductDesc?.append(tripRideCustomObj)
+//                
+//            }
             
-        }
+//        }
         
         
-        if let tripRidesSrvrObj = tripObj["trip_rides"] as? NSArray
-        {
-            for leg in tripRidesSrvrObj
-            {
-                let tripLeg  = leg  as! [String : AnyObject]
-                
-                let tripRideCustomObj = TripRideI()
-                
-                tripRideCustomObj.setTripRideData(tripRideObj: tripLeg)
-                
-                self.arrayProductPrice?.append(tripRideCustomObj)
-                
-            }
+//        if let tripRidesSrvrObj = tripObj["trip_rides"] as? NSArray
+//        {
+//            for leg in tripRidesSrvrObj
+//            {
+//                let tripLeg  = leg  as! [String : AnyObject]
+//                
+//                let tripRideCustomObj = TripRideI()
+//                
+//                tripRideCustomObj.setTripRideData(tripRideObj: tripLeg)
+//                
+//                self.arrayProductPrice?.append(tripRideCustomObj)
+//                
+//            }
             
-        }
+//        }
 
         
         
